@@ -1,5 +1,7 @@
 div {
     background: url(b.jpg);
+    background-size: cover;
+    background-position: center
     opacity: ;
     position: absolute;
     width: 100%;
@@ -47,6 +49,7 @@ input.b {
 .p {
     color: white;
     font-weight: 600;
+    font-size: 22px;
 }
 ::-webkit-input-placeholder {
     padding-right: 120px;
@@ -57,14 +60,14 @@ input.b {
 }
 a:link {
     position: relative;
-    top: 580px;
+    top: 570px;
     right: 260px;
     color: dimgray;
     text-decoration: none;
 }
 .a {
     position: relative;
-    top: 580px;
+    top: 570px;
     right: 260px;
     color: dimgray;
 }
